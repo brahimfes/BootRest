@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,12 +15,6 @@ import com.example.web.login.LoginService;
 public class UserController {
     @Autowired
     private LoginService loginService;
-
-    @RequestMapping(value = "/api/{userId}", method = RequestMethod.GET)
-	public UserVo getUserVoInJSON(@PathVariable String userId) {
-		UserVo userVo = loginService.getUser(userId);
-		return userVo;
-	}
     @RequestMapping(value = "/api/users", method = RequestMethod.GET)
 	public List<UserVo> getUserVoList() {
     	List<UserVo> userList = new ArrayList<UserVo>();
