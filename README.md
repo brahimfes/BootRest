@@ -11,8 +11,8 @@ External Tomcat 8 with https<br>
 Test URL : https://localhost:8443/BootRest/api/users
 
 # HTTP Basic Authentication
-include request Header : Authorization: Basic cmVzdDpyZXN0
-or 
+include request Header : Authorization: Basic cmVzdDpyZXN0<br>
+or<br>
 https://rest:rest@localhost:8443/BootRest/api/users
 
 # Tomcat Datasource JNDI
