@@ -25,7 +25,7 @@ type="javax.sql.DataSource"
 url="jdbc:mysql://db.example.com:3306/exampledb?zeroDateTimeBehavior=convertToNull"/>      
 </GlobalNamingResources>
 
-<Context docBase="BootSecurity" path="/BootSecurity" reloadable="true">
+<Context docBase="BootRest" path="/BootRest" reloadable="true">
 <ResourceLink global="jdbc/sim" name="jdbc/sim" type="javax.sql.DataSource"/>
 </Context>
 ```
