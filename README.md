@@ -1,5 +1,5 @@
 # BootRest
-Spring Boot Rest with Spring Security and HTTP Basic Authentication Login through Mysql DB  
+Spring Boot Rest with Spring Security and HTTP Basic Authentication using Mysql
 
 # Environment
 Spring Boot 1.4.0 , Spring Security 4.0.3 , HTTP Basic Authentication<br>
